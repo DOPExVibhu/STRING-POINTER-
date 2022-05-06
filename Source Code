@@ -1,0 +1,21 @@
+// preprocessor directive 
+#include <stdio.h>
+// main method - Start of Program  
+int main() 
+{
+  // Declaring and intialising an array of characters 
+  char s[]="A string";
+  // Declaring a character pointer 
+  char *p;
+  // Accessing a variable through its pointer 
+  p=s;
+  // Printing one of the required Output 
+  printf("%c\t%c\t%c",s[0],*p,p[3]);
+  // Updating the pointer from (pointer to pointer + 2 )
+  p=p+2;
+  // Printing the Required Output 
+  printf("\n%c\t%c\t%c",*p,p[2],p[5]);
+  // return statement 
+  return 0;
+  
+} // End of Program  
